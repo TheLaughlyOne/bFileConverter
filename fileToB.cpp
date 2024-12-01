@@ -6,6 +6,8 @@
 #include <typeinfo>
 #include <cstddef>
 #include <cstdlib>
+#include <windows.h>
+#include <unistd.h>
 #include <algorithm>
 
 using namespace std;
@@ -112,5 +114,6 @@ int main()
     readTextFile();
     bConversion();
 
+    sleep(10000);
     return 0;
 }
