@@ -24,7 +24,6 @@ void readTextFile()
 
     while (getline (readFile, fileText))
     {
-
     }
 
     if (filePath.rfind("C:", 0) == 0)
