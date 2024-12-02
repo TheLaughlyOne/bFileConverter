@@ -106,6 +106,38 @@ void bConversion()
     replace(fileText.begin(), fileText.end(), '8', 'B');
     replace(fileText.begin(), fileText.end(), '9', 'B');
 
+    // Special Characters
+    replace(fileText.begin(), fileText.end(), ',', 'B');
+    replace(fileText.begin(), fileText.end(), ';', 'B');
+    replace(fileText.begin(), fileText.end(), '.', 'B');
+    replace(fileText.begin(), fileText.end(), '!', 'B');
+    replace(fileText.begin(), fileText.end(), '?', 'B');
+    replace(fileText.begin(), fileText.end(), '/', 'B');
+    replace(fileText.begin(), fileText.end(), ':', 'B');
+    replace(fileText.begin(), fileText.end(), '"', 'B');
+    replace(fileText.begin(), fileText.end(), '{', 'B');
+    replace(fileText.begin(), fileText.end(), '}', 'B');
+    replace(fileText.begin(), fileText.end(), '[', 'B');
+    replace(fileText.begin(), fileText.end(), ']', 'B');
+    replace(fileText.begin(), fileText.end(), '|', 'B');
+    replace(fileText.begin(), fileText.end(), '<', 'B');
+    replace(fileText.begin(), fileText.end(), '>', 'B');
+    replace(fileText.begin(), fileText.end(), '@', 'B');
+    replace(fileText.begin(), fileText.end(), '#', 'B');
+    replace(fileText.begin(), fileText.end(), '$', 'B');
+    replace(fileText.begin(), fileText.end(), '%', 'B');
+    replace(fileText.begin(), fileText.end(), '`', 'B');
+    replace(fileText.begin(), fileText.end(), '~', 'B');
+    replace(fileText.begin(), fileText.end(), '^', 'B');
+    replace(fileText.begin(), fileText.end(), '&', 'B');
+    replace(fileText.begin(), fileText.end(), '*', 'B');
+    replace(fileText.begin(), fileText.end(), '(', 'B');
+    replace(fileText.begin(), fileText.end(), ')', 'B');
+    replace(fileText.begin(), fileText.end(), '+', 'B');
+    replace(fileText.begin(), fileText.end(), '=', 'B');
+    replace(fileText.begin(), fileText.end(), '-', 'B');
+    replace(fileText.begin(), fileText.end(), '_', 'B');
+
     cout << fileText << "\n";
 }
 
